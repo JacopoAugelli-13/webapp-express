@@ -7,6 +7,7 @@
   "type": "module",
   "main": "server.js",
   "scripts": {
+<<<<<<< HEAD
     "start": "node server.js",
     "dev": "node --watch server.js"
   },
@@ -14,5 +15,13 @@
     "cors": "^2.8.6",
     "express": "^5.2.1",
     "mysql2": "^3.24.5"
+=======
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.24.5",
+    "routes": "^2.1.0"
+>>>>>>> 914096459c2f9f0a43be71d40e47c0d8ac037526
   }
 }
